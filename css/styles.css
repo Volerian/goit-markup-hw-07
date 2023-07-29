@@ -124,6 +124,7 @@ body {
 }
 
 /* -----------MOBILE MENU-------------- */
+
 .mobile-menu {
   position: fixed;
   top: 0;
@@ -237,6 +238,7 @@ body {
 .mobile-menu-address-list {
   margin-bottom: 48px;
   margin-left: 24px;
+  margin-top: 284px;
 }
 
 .mobile-menu-adrs-item {
@@ -297,6 +299,16 @@ body {
 
 .mobile-menu-social-icon {
   fill: #f4f4fd;
+}
+
+@media screen and (max-width: 427px) {
+  .mobile-menu-address-list {
+    margin-top: auto;
+  }
+
+  .mobile-menu-list {
+    margin-bottom: 36px;
+  }
 }
 
 /* TABLET */
@@ -659,7 +671,7 @@ body {
   }
 
   .diligence-par {
-    width: 264px;
+    width: 267px;
   }
 
   .technologies-par {
@@ -682,6 +694,7 @@ body {
   #section-second {
     display: block;
     padding-top: 120px;
+    padding-bottom: 120px;
   }
 
   .second-head {
@@ -1114,6 +1127,7 @@ body {
   }
 
   .footer-container {
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: normal;
@@ -1125,6 +1139,10 @@ body {
     margin-left: 0;
   }
 
+  .footer-par {
+    margin: 0;
+  }
+
   .footer-soc {
     align-items: start;
     margin-top: 0;
@@ -1132,11 +1150,26 @@ body {
 
   .footer-subscribe {
     align-items: start;
+    margin-bottom: 96px;
+  }
+
+  .sub-text {
+    text-align: start;
   }
 
   .sub-form {
+    display: flex;
     align-items: normal;
+    width: 453px;
     gap: 24px;
+  }
+
+  .sub-form-field-wrapper {
+    width: 264px;
+  }
+
+  .sub-button {
+    margin: 0 auto;
   }
 }
 
